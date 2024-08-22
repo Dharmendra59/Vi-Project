@@ -1,0 +1,60 @@
+* {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+}
+
+.navbar {
+    height: 70px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    box-shadow: 0 1px 2px 0 rgba(107, 102, 102, 0.2), 0 2px 5px 0 rgba(121, 117, 117, 0.19);
+    border: none;
+}
+
+.header {
+    min-height: 300px;
+    width: 100%;
+    background-color: transparent;
+}
+
+.logo {
+    height: 100%;
+    width: 15%;
+    background-color: transparent;
+    display: flex;
+    align-items: end;
+}
+
+.slider {
+    background-image: url('https://www.myvi.in/content/dam/vodafoneideadigital/newhomepage/Desk-Utilities.webp');
+    width: 60%;
+    height: 280px;
+    margin-left: 20%;
+    border-radius: 25px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section1 {
+    min-height: 200px;
+    width: 100%;
+    background-color: green;
+}
+
+.footer {
+    height: 100px;
+    width: 100%;
+    background-color: gray;
+}
